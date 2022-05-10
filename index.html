@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Autobiography</title>
+</head>
+<body>
+
+<p id="aboutMe">
+
+</p>
+<ul>
+    <li>Age:27</li>
+    <li>Birthday: 05/07/95</li>
+    <li>Favorite food: Chipotle</li>
+</ul>
+
+</body>
+</html>
+
+<style>
+    h1{
+        color: blueviolet;
+        text-align: center;
+    }
+
+
+    .about{
+        color: aqua;
+    }
+
+    #aboutMe{
+        color: darkblue;
+    }
+
+
+</style>
+
+<script>
+    console.log("She was the best in town ")
+    let aboutMe="Val";
+    let amount = 10;
+
+    for (let i = 0; i <= amount; i++) {
+        console.log("Val",i);
+        document.getElementById("aboutMe").innerText=aboutMe +" "+i
+    }
+
+</script>
